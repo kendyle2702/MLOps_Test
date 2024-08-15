@@ -14,7 +14,3 @@ jobs:
         run: |
           pip install -r requirements.txt
           python train.py
-
-          cat requirements.txt >> report.md
-          cat metrics.txt >> report.md
-          cml comment create report.md
